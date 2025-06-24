@@ -94,11 +94,25 @@ namespace backend.Controllers
             }
             catch (DbUpdateException ex)
             {
-                // Handle exception if needed (e.g., foreign key violation)
                 return BadRequest(new { error = ex.Message });
             }
 
-            return NoContent(); // or Ok(transaction) if you want to return the updated entity
+            return NoContent();
+        }
+
+       [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTransaction(int id)
+        {
+            var transaction = await _context.Transactions.FindAsync(id);
+            if (transaction == null)
+            {
+                return NotFound();
+            }
+
+            _context.Transactions.Remove(transaction);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }
