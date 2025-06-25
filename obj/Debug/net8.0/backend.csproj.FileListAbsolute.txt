@@ -109,3 +109,13 @@
 /home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/albunix/Documents/Praktika/backend/obj/Debug/net8.0/backend.sourcelink.json
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/albunix/Documents/Praktika/backend/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
